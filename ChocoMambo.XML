@@ -1,0 +1,1645 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChocoMambo</name>
+    </assembly>
+    <members>
+        <member name="T:ChocoMambo.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._10">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources._9">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ChocoMamboMain">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ListTemplate_ARt">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ListTemplate_ARt1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ListTemplate_ARt2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.LoginArt">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.Settings_Art">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmListTemplate.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmListTemplate.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmListTemplate.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmRetailersList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmRetailersList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmRetailersList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ChocoMambo.frmBranchList">
+            <summary>
+            Branch List Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranchList.#ctor(System.String)">
+            <summary>
+            Branch List Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranchList.populateGrid">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Grid will be populated
+            Description:    This method will populate the Data Grid
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranchList.loadDataTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Table will be loaded
+            Description:    This method will load the Data Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:ChocoMambo.frmBranchList.btnNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button New
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo.frmBranchList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranchList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmBranchList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.DebugLog.LogPrint(System.String)">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: Text file will be written to with the log
+            Description:    Writes the message/log to the text file
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:ChocoMambo.DebugLog.LogWrite">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: Console will be written to
+            Description:    Reads a text file and writes a message to the console
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.DebugLog.readFromBinaryFile">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Console is written to
+            Description:    Reads the binary file and prints the string to the console
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.DebugLog.writeToBinaryFile(System.String)">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: Message writen to binary file
+            Description:    Writes the message into a binary file then closes the streams
+            </summary>
+            <param name="Message"></param>
+        </member>
+        <member name="M:ChocoMambo.Treats.#ctor">
+            <summary>
+            Constructor for new Treat
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Treats.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing Treat
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.Treats.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the Treats table loaded.
+            Description:    This method will load the dataset with records
+                            from the Treats table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Treats.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.PurchasedIngredients.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the IngredientsPurchased table loaded.
+            Description:    This method will load the dataset with records
+                            from the IngredientsPurchased table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.PurchasedIngredients.loadIngredientPrice(System.Int64)">
+            <summary>
+            Pre-condition:  IngredientsID , true
+            Post-condition: returns the costprice of the Ingredient
+            Description:    This method will load the dataset with selected
+                            Ingredients CostPrice then return the decimal
+                            cost price.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.PurchasedIngredients.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmRetailers.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmRetailers.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmRetailers.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.#ctor">
+            <summary>
+            Constructor for new employee
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing employee
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.Employee.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the employee table loaded.
+            Description:    This method will load the dataset with records
+                            from the employees table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.getDepartments">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Returns departments
+            Description:    This method will return departments in a dataTable
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be saved
+            Description:    This method will save the new record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.addNewRecord">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: New record will be added
+            Description:    This method will add a new record to the DataSet
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Existing record will be updated
+            Description:    This method will update the record in the DataSet
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmSalesList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSalesList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmSalesList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ChocoMambo.frmLogin">
+            <summary>
+            Login Form
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmLogin.#ctor">
+            <summary>
+            Login Form Constructor
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmLogin.btnLogin_Click(System.Object,System.EventArgs)">
+            <summary>
+            Compares the login info with every user in the datbase then closes after three attempts
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmEmployeeLogins._employeeLogin">
+            <summary>
+            Departments Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.#ctor">
+            <summary>
+            Constructor for Departments
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.#ctor(System.Int64)">
+            <summary>
+            Constructor for Departments
+            </summary>
+            <param name="pLongID">Primary Key</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.displayRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be displayed
+            Description:    This method will display the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.populateEmployeeCombo">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Populates the Employee comboBox in the form
+            Description:    This method gets the Employee table then puts the datasource inhto the 
+            combo box.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.assignData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be assigned
+            Description:    This method will assign the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo.frmEmployeeLogins.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLogins.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Purchase.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the Purchase table loaded.
+            Description:    This method will load the dataset with records
+                            from the Purchase table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Purchase.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Purchase.createRelationship">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will create the relationship between PurchaseOrders and
+                            SouvenirPurchase.
+            Description:    This method will create the relationship between PurchaseOrders and
+                            SouvenirPurchase.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Purchase.PKID">
+            <summary>
+            Property to return the Purchase primary key ID to be used
+            to create new SouvenirPurchase
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Purchase.PurchasedIngredientsClass">
+            <summary>
+            Property to return the SouvenirPurchase class to be able to
+            call its' properties and methods.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Login.#ctor(System.String,System.String)">
+            <summary>
+            Login Constructor
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Login.CheckLogin">
+            <summary>
+            Login check for the frmLogin
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Login.getUserLevels">
+            <summary>
+            Gets the useraccess levels for the user. THis will decide the form permissions
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmSuppliers.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSuppliers.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmSuppliers.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmSplash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSplash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmSplash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmDepartmentList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartmentList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmDepartmentList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartmentList.#ctor(System.String)">
+            <summary>
+            Department List Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartmentList.populateGrid">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Grid will be populated
+            Description:    This method will populate the Data Grid
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartmentList.loadDataTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Table will be loaded
+            Description:    This method will load the Data Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:ChocoMambo.frmDepartmentList.btnNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button New
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.Retail.#ctor">
+            <summary>
+            Constructor for new Retailer
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Retail.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing Retailer
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.Retail.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the Retailers table loaded.
+            Description:    This method will load the dataset with records
+                            from the Retailers table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Retail.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSettings.#ctor(System.Collections.Hashtable)">
+            <summary>
+            Constructor for Settings
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSettings.btnEmployeeList_Click(System.Object,System.EventArgs)">
+            <summary>
+            EmployeeList Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmSettings.btnEmployeePermissionsList_Click(System.Object,System.EventArgs)">
+            <summary>
+            EmployeePermissions Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmSettings.checkPermission(System.String)">
+            <summary>
+            Checks the permission for the user. A second double check is attempted in the child class
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmSettings.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSettings.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmSettings.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmPurchases.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmPurchases.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmPurchases.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissionsList.#ctor(System.String)">
+            <summary>
+            Department List Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissionsList.populateGrid">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Grid will be populated
+            Description:    This method will populate the Data Grid
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissionsList.loadDataTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Table will be loaded
+            Description:    This method will load the Data Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissionsList.btnNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button New
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo.frmEmployeePermissionsList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissionsList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissionsList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Sales.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the Purchase table loaded.
+            Description:    This method will load the dataset with records
+                            from the Purchase table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Sales.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Sales.createRelationship">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will create the relationship between PurchaseOrders and
+                            SouvenirPurchase.
+            Description:    This method will create the relationship between PurchaseOrders and
+                            SouvenirPurchase.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Sales.getTotalPurchasePerRetailer">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Grabs the prices for the retailer in this sale
+            Description:    The sales will collect each price for the retailer then returns the total
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Sales.PKID">
+            <summary>
+            Property to return the Purchase primary key ID to be used
+            to create new SouvenirPurchase
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Sales.TreatsSoldClass">
+            <summary>
+            Property to return the SouvenirPurchase class to be able to
+            call its' properties and methods.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmTreats.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmTreats.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmTreats.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmSuppliersList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSuppliersList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmSuppliersList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ChocoMambo.frmIngredients">
+            <summary>
+            Ingredients Form
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmIngredients.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.#ctor">
+            <summary>
+            Constructor for Ingredients
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.#ctor(System.Int64)">
+            <summary>
+            Constructor for Ingredients
+            </summary>
+            <param name="pLongID">Primary Key</param>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.displayRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be displayes
+            Description:    This method will display the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.assignData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data will be assigned
+            Description:    This method will assign the data
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.btnClose_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Close
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmIngredients.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLoginsList.#ctor(System.String)">
+            <summary>
+            Department List Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLoginsList.populateGrid">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Grid will be populated
+            Description:    This method will populate the Data Grid
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLoginsList.loadDataTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Table will be loaded
+            Description:    This method will load the Data Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLoginsList.btnNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button New
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo.frmEmployeeLoginsList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLoginsList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeLoginsList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Supplier.#ctor">
+            <summary>
+            Constructor for new supplier
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Supplier.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing supplier
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.Supplier.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the Supplier table loaded.
+            Description:    This method will load the dataset with records
+                            from the Suppliers table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Supplier.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Ingredient.#ctor">
+            <summary>
+            Constructor for new Ingredient
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Ingredient.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing Ingredient
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.Ingredient.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the Ingredients table loaded.
+            Description:    This method will load the dataset with records
+                            from the Branches table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Ingredient.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmEmployeePermissions._employeePermission">
+            <summary>
+            EmployeePermissions Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.#ctor">
+            <summary>
+            Constructor for EmployeePermissions
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.#ctor(System.Int64)">
+            <summary>
+            Constructor for EmployeePermissions
+            </summary>
+            <param name="pLongID">Primary Key</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.displayRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be displayes
+            Description:    This method will display the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.populateEmployeeCombo">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Populates the Employee comboBox in the form
+            Description:    This method gets the Employee table then puts the datasource into the 
+            combo box.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.assignData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be assigned
+            Description:    This method will assign the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo.frmEmployeePermissions.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeePermissions.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmTreatList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmTreatList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmTreatList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnBranch_Click(System.Object,System.EventArgs)">
+            <summary>
+            Branch Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnTreats_Click(System.Object,System.EventArgs)">
+            <summary>
+            Treats Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnDepartments_Click(System.Object,System.EventArgs)">
+            <summary>
+            Departments Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnIngredients_Click(System.Object,System.EventArgs)">
+            <summary>
+            Ingredients Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnPurchases_Click(System.Object,System.EventArgs)">
+            <summary>
+            Purchases Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnRetailers_Click(System.Object,System.EventArgs)">
+            <summary>
+            Retailers Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnSales_Click(System.Object,System.EventArgs)">
+            <summary>
+            Sales Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnSuppliers_Click(System.Object,System.EventArgs)">
+            <summary>
+            Suppliers Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmMain.btnSettings_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Settings Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployee.#ctor">
+            <summary>
+            Constructor for Employees
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployee.#ctor(System.Int64)">
+            <summary>
+            Constructor for Employees
+            </summary>
+            <param name="pLongID">Primary Key</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployee.displayRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be displayes
+            Description:    This method will display the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployee.assignData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be assigned
+            Description:    This method will assign the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployee.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo.frmEmployee.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployee.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployee.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Branch.#ctor">
+            <summary>
+            Constructor for Branch
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Branch.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing Branch
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.Branch.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the Branch table loaded.
+            Description:    This method will load the dataset with records
+                            from the Branch table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Branch.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Branch.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be saved
+            Description:    This method will save the new record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Branch.addNewRecord">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: New record will be added
+            Description:    This method will add a new record to the DataSet
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Branch.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Existing record will be updated
+            Description:    This method will update the record in the DataSet
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Department.#ctor">
+            <summary>
+            Constructor for new departments
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Department.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing departments
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.Department.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the departments table loaded.
+            Description:    This method will load the dataset with records
+                            from the departmentes table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Department.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Department.getBranch">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Returns the branch
+            Description:    This method will return the branch's table in a datatable
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Department.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be saved
+            Description:    This method will save the new record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Department.addNewRecord">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: New record will be added
+            Description:    This method will add a new record to the DataSet
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Department.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data in record will be updated
+            Description:    This method will update the rows in the table
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmSales.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmSales.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmSales.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmDepartment._department">
+            <summary>
+            Departments Form
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.#ctor">
+            <summary>
+            Constructor for Departments
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.#ctor(System.Int64)">
+            <summary>
+            Constructor for Departments
+            </summary>
+            <param name="pLongID">Primary Key</param>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.displayRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be displayes
+            Description:    This method will display the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.populateBranchCombo">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Populates the branch comboBox in the form
+            Description:    This method gets the branch table then puts the datasource inhto the 
+            combo box.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.assignData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be assigned
+            Description:    This method will assign the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo.frmDepartment.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmDepartment.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.#ctor">
+            <summary>
+            Constructor for new EmployeeLogins
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing EmployeeLogins
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the EmployeeLogins table loaded.
+            Description:    This method will load the dataset with records
+                            from the EmployeeLogins table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.getEmployees">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Returns the Employee
+            Description:    This method will return the Employee's table in a datatable
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be saved
+            Description:    This method will save the new record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.addNewRecord">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: New record will be added
+            Description:    This method will add a new record to the DataSet
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeeLogin.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data in record will be updated
+            Description:    This method will update the rows in the table
+            </summary>
+        </member>
+        <member name="T:ChocoMambo.frmIngredientsList">
+            <summary>
+            Ingredients List Form
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmIngredientsList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredientsList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmIngredientsList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredientsList.#ctor(System.String)">
+            <summary>
+            Constructor for IngredientsList
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredientsList.frmIngredientsList_Load(System.Object,System.EventArgs)">
+            <summary>
+            Populates the Grid when form loads
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredientsList.populateGrid">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Grid will be populated
+            Description:    This method will populate the Data Grid
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmIngredientsList.loadDataTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Table will be loaded
+            Description:    This method will load the Data Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="T:ChocoMambo.frmBranch">
+            <summary>
+            Holds the Branch Form
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmBranch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.#ctor">
+            <summary>
+            Constructor for Branch
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.#ctor(System.Int64)">
+            <summary>
+            Constructor for Branches
+            </summary>
+            <param name="pLongID">Primary Key</param>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.displayRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be displayes
+            Description:    This method will display the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.assignData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be assigned
+            Description:    This method will assign the record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.btnClose_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Close
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.frmBranch.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button Save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.#ctor">
+            <summary>
+            Constructor for new EmployeePermission
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing EmployeePermission
+            </summary>
+            <param name="pLongID">The primary key ID of the record.</param>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the EmployeePermission table loaded.
+            Description:    This method will load the dataset with records
+                            from the EmployeePermission table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.getEmployees">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Returns the Employee
+            Description:    This method will return the Employee's table in a datatable
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.getForms">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Returns the form
+            Description:    This method will return the Form's table in a datatable
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Record will be saved
+            Description:    This method will save the new record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.addNewRecord">
+            <summary>
+            Pre-condition:  true 
+            Post-condition: New record will be added
+            Description:    This method will add a new record to the DataSet
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.EmployeePermission.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data in record will be updated
+            Description:    This method will update the rows in the table
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.TreatsSold.loadDataSet">
+            <summary>
+            Pre-condition:  true
+            Post-condition: The dataset will have the SouvenirsPurchased table loaded.
+            Description:    This method will load the dataset with records
+                            from the SouvenirsPurchased table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.TreatsSold.loadIngredientPrice(System.Int64)">
+            <summary>
+            Pre-condition:  IngredientsID , true
+            Post-condition: returns the costprice of the Ingredient
+            Description:    This method will load the dataset with selected
+                            Ingredients CostPrice then return the decimal
+                            cost price.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.TreatsSold.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Properties will be populated with data.
+            Description:    This method will populate the properties with data.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmPurchasesList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmPurchasesList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmPurchasesList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ChocoMambo.frmEmployeeList">
+            <summary>
+            Employees List Form
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frmEmployeeList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeList.#ctor(System.String)">
+            <summary>
+            Constructor for EmployeesList
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeList.frmEmployeeList_Load(System.Object,System.EventArgs)">
+            <summary>
+            EmployeeList Load
+            </summary>
+            <param name="pLongID">Primary Key</param>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeList.populateGrid">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Grid will be populated
+            Description:    This method will populate the Data Grid
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frmEmployeeList.loadDataTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Data Table will be loaded
+            Description:    This method will load the Data Table
+            </summary>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:ChocoMambo.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>
